@@ -4,11 +4,10 @@
  * @CreateTime:	2021/12/14 上午10:05
  * @Description: 从证件号码中获取相关信息
  */
-package IdCardService
+package idCard
 
 import (
 	"fmt"
-	"goAnalyses2/model"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"strconv"
@@ -61,12 +60,12 @@ func (i *IdCardService) GetArea(id string) (province string, city string, county
 		if err != nil {
 			fmt.Println("连接area数据库失败")
 		}
-		var countyData = model.ResCounty{}
+		var countyData = ResCounty{}
 		AreaDb.Debug().Where("code = ?", code).First(&countyData)
 		//fmt.Println(countyData)
-		var cityData = model.ResCity{}
+		var cityData = ResCity{}
 		AreaDb.Where("id = ?", countyData.CityId).First(&cityData)
-		var provinceData = model.ResProvince{}
+		var provinceData = ResProvince{}
 		AreaDb.Where("id = ?", cityData.ProvinceId).First(&provinceData)
 		province, city, county = provinceData.Name, cityData.Name, countyData.Name
 	} else {

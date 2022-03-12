@@ -4,11 +4,10 @@
  * @CreateTime:	2021/12/22
  * @Description: 将省市区数据加载map中以供快速查询
  */
-package IdCardService
+package idCard
 
 import (
 	"fmt"
-	"goAnalyses2/model"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"strconv"
@@ -17,9 +16,9 @@ import (
 var (
 	//IsInit 用于确认数据是否初始化到了下面三个map中
 	IsInit        bool = false
-	Res_Provice        = make(map[uint]model.ResProvince) //这里的uint是 在数据表中的id
-	Res_CityMap        = make(map[uint]model.ResCity)     //这里的uint是 在数据表中的id
-	Res_CountyMap      = make(map[uint]model.ResCounty)   //这里的uint是 区县编码里的内容！！！
+	Res_Provice        = make(map[uint]ResProvince) //这里的uint是 在数据表中的id
+	Res_CityMap        = make(map[uint]ResCity)     //这里的uint是 在数据表中的id
+	Res_CountyMap      = make(map[uint]ResCounty)   //这里的uint是 区县编码里的内容！！！
 )
 
 func Init_areaInfoToMap() {
@@ -27,11 +26,11 @@ func Init_areaInfoToMap() {
 	if err != nil {
 		fmt.Println("连接area数据库失败")
 	}
-	var countyData = []model.ResCounty{}
+	var countyData = []ResCounty{}
 	AreaDb.Select("*").Find(&countyData)
-	var cityData = []model.ResCity{}
+	var cityData = []ResCity{}
 	AreaDb.Select("*").Find(&cityData)
-	var provinceData = []model.ResProvince{}
+	var provinceData = []ResProvince{}
 	AreaDb.Select("*").Find(&provinceData)
 	for _, county := range countyData {
 		Res_CountyMap[county.Code] = county
