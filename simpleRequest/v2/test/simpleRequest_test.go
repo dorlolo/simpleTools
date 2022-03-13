@@ -10,7 +10,7 @@ package test
 import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
-	simpleRequest2 "go-simple/simpleRequest/v2"
+	simpleRequest2 "simpleTools/simpleRequest/v2"
 	"testing"
 	"time"
 )
