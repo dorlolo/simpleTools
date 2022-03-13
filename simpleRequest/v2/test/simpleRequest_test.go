@@ -9,8 +9,8 @@ package test
 
 import (
 	"fmt"
+	simpleRequest2 "github.com/dorlolo/simpleTools/simpleRequest/v2"
 	"github.com/stretchr/testify/assert"
-	simpleRequest2 "simpleTools/simpleRequest/v2"
 	"testing"
 	"time"
 )
