@@ -4,6 +4,11 @@
 <a href='https://gitee.com/drololo/go-simple/stargazers'><img src='https://gitee.com/drololo/go-simple/badge/star.svg?theme=dark' alt='star'></img></a>
 
 <a href='https://gitee.com/drololo/go-simple/members'><img src='https://gitee.com/drololo/go-simple/badge/fork.svg?theme=dark' alt='fork'></img></a>
+
+gitee地址：[https://gitee.com/drololo/go-simple](https://gitee.com/drololo/go-simple)
+
+githb地址：[https://github.com/dorlolo/go-simple](https://github.com/dorlolo/go-simple)
+
 ## 模块包说明
 - [idCardInfo](./idCardInfo): 身份证信息读取  
 - [simpleCrypto](./simpleCrypto): 信息加密  
