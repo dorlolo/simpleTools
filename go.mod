@@ -1,4 +1,4 @@
-module simpleTools
+module github.com/dorlolo/simpleTools
 
 go 1.17
 

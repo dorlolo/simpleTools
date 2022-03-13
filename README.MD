@@ -1,10 +1,9 @@
 # simpleTools
 自定义的golang工具库
-<div style="display: flex">
-<a href='https://gitee.com/drololo/go-simple/stargazers'><img src='https://gitee.com/drololo/go-simple/badge/star.svg?theme=dark' alt='star'></img></a>
 
+<a href='https://gitee.com/drololo/go-simple/stargazers'><img src='https://gitee.com/drololo/go-simple/badge/star.svg?theme=dark' alt='star'></img></a>
 <a href='https://gitee.com/drololo/go-simple/members'><img src='https://gitee.com/drololo/go-simple/badge/fork.svg?theme=dark' alt='fork'></img></a>
-</div>
+
 gitee地址：[https://gitee.com/drololo/go-simple](https://gitee.com/drololo/go-simple)
 
 githb地址：[https://github.com/dorlolo/go-simple](https://github.com/dorlolo/go-simple)
