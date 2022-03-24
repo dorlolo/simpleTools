@@ -18,16 +18,17 @@ func init() {
 
 //
 //  RangeInt64
-//  @Description: 从指定的数字区间中取值
-//  @param min 最小值
-//  @param max 最大值
+//  @Description: 随机范围
+//  @param min 最小值  不能为0
+//  @param max 最大值 不能为0
 //  @return int64
 //
 func RangeInt64(min, max int64) int64 {
 	if min >= max || min == 0 || max == 0 {
 		return max
 	}
-	return rand.Int63n(max-min) + min
+	//time.Sleep(time.Millisecond * 850)
+	return rand.Int63n(max - min)
 }
 
 //
