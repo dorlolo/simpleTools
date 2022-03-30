@@ -18,8 +18,7 @@ import (
 func Md5Enscrypto(data string) string {
 	m := md5.New()
 	m.Write([]byte(data))
-	res := hex.EncodeToString(m.Sum(nil))
-	return res
+	return hex.EncodeToString(m.Sum(nil))
 }
 
 //SimpleEncryptAesECB ECB加密，并对加密结果进行了base64编码

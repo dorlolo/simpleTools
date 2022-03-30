@@ -87,7 +87,6 @@ func StructToMap(obj interface{}) (result map[string]interface{}) {
 		if obj2.Field(i).CanInterface() {
 			result[obj1.Field(i).Name] = obj2.Field(i).Interface()
 		}
-
 	}
 	return
 }
@@ -120,7 +119,6 @@ func StructToMapUseTag(data interface{}, tag string) (result map[string]interfac
 			}
 		}
 	}
-
 	return
 }
 

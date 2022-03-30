@@ -5,7 +5,7 @@
  * @Description:
  */
 
-package utils
+package simpleIo
 
 import (
 	"fmt"

@@ -4,7 +4,7 @@
  * @CreateTime:	下午5:34
  * @Description:
  */
-package utils
+package simpleIo
 
 import (
 	"encoding/base64"
