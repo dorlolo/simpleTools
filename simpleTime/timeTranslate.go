@@ -3,7 +3,7 @@
  * @Date 2021/11/18 1:36 下午
  **/
 
-package timeUtil
+package simpleTime
 
 import (
 	"time"
@@ -32,6 +32,11 @@ func NowTimeToTime(layout string) *time.Time {
 	return tt
 }
 
+func TimeToString(timeobj *time.Time, layout string) string {
+	return timeobj.Format(layout)
+}
+
+//
 // todo
 //func commonParse_stringToTime(timeStr string) *time.Time {
 //const spaceList =[4,2,2,2,2,2]

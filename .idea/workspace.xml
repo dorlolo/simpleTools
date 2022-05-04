@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="847ca993-dffc-4963-8e38-d5bc69f3eca9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/test/piyin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/utils/area.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/utils/china_area.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/utils/crawlArea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/utils/sqlite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/addresGet/utils/sys_dict_area.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/baseService.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/res_area.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idCard/test/idcard_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleCrypto/test/simpleCrypto_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleData/arrary.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleIo/file_operations.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleIo/write.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sys/util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smipleTools.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleCrypto/simpleCrypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleCrypto/simpleCrypto.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleData/dataHandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleData/dataHandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleIo/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleIo/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleIo/fileSize.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleIo/size.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +46,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/simpleCrypto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../digital-collection" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

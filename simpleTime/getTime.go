@@ -5,7 +5,7 @@
  * @Description:
  */
 
-package timeUtil
+package simpleTime
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 )
 
 //ThisMormingTime 今天凌晨
-func ThisMorming(format string) (strTime string) {
+func ThisMorning(format string) (strTime string) {
 	thisTime := time.Now()
 	year := thisTime.Year()
 	month := MonthMap[thisTime.Month().String()]
@@ -24,6 +24,15 @@ func ThisMorming(format string) (strTime string) {
 		strTime = t1.Format(format)
 	}
 	return strTime
+}
+
+func TomorrowMorning(baseTime time.Time) *time.Time {
+	year := baseTime.Year()
+	month := MonthMap[baseTime.Month().String()]
+	day := fmt.Sprintf("%02d", baseTime.Day()+1)
+	strTime := fmt.Sprintf("%v-%v-%v 00:00:00", year, month, day)
+	res, _ := StringToTime(strTime)
+	return res
 }
 
 //ThisMorningUnix 获取当日凌晨的时间戳

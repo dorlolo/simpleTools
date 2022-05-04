@@ -5,7 +5,7 @@
  * @Description:
  */
 
-package timeUtil
+package simpleTime
 
 import "time"
 
@@ -22,6 +22,10 @@ type DefineTimeFormat struct {
 	//无间隔符
 	NoSpacer_YMDhms string
 	NoSpacer_YMD    string
+	CN_YMDhms       string
+	CN_YMDhm        string
+	CN_YMD          string
+	CN_hms          string
 }
 
 var TimeFormat DefineTimeFormat
@@ -50,6 +54,11 @@ func init() {
 		Slash_YMD:       "2006/01/02",
 		NoSpacer_YMDhms: "20060102150405",
 		NoSpacer_YMD:    "20060102",
+
+		CN_YMDhms: "2006年01月02日 15时04分05秒",
+		CN_YMDhm:  "2006年01月02日 15时04分",
+		CN_YMD:    "2006年01月02日",
+		CN_hms:    "15时04分05秒",
 	}
 	Loc, _ = time.LoadLocation("Asia/Shanghai")
 }
