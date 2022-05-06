@@ -19,8 +19,8 @@ func ThisMorning(format string) (strTime string) {
 	month := MonthMap[thisTime.Month().String()]
 	day := fmt.Sprintf("%02d", thisTime.Day())
 	strTime = fmt.Sprintf("%v-%v-%v 00:00:00", year, month, day)
-	if format != TimeFormat.Normal_YMDhms {
-		t1, _ := time.ParseInLocation(TimeFormat.Normal_YMDhms, strTime, Loc)
+	if format != Format.Normal_YMDhms {
+		t1, _ := time.ParseInLocation(Format.Normal_YMDhms, strTime, Loc)
 		strTime = t1.Format(format)
 	}
 	return strTime

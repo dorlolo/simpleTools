@@ -14,14 +14,14 @@ import (
 )
 
 func TestTime(t *testing.T) {
-	result := NowTimeToTime(TimeFormat.Normal_YMDhms)
+	result := NowTimeToTime(Format.Normal_YMDhms)
 	fmt.Println(result)
 }
 
-func TestTimeFormat(t *testing.T) {
+func TestFormat(t *testing.T) {
 	nowtime := time.Now()
-	trans1 := nowtime.Format(TimeFormat.Normal_YMDhms)
+	trans1 := nowtime.Format(Format.Normal_YMDhms)
 	t.Log(trans1)
-	trans2 := nowtime.Format(TimeFormat.CN_YMDhms)
+	trans2 := nowtime.Format(Format.CN_YMDhms)
 	t.Log(trans2)
 }

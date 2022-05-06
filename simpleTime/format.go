@@ -14,6 +14,7 @@ var MonthMap = make(map[string]string)
 type DefineTimeFormat struct {
 	//常规时间格式(日期带横杠)
 	Normal_YMDhms string
+	Normal_YMDhm  string
 	Normal_YMD    string
 	Normal_hms    string
 	//带斜杠的时间格式
@@ -28,7 +29,7 @@ type DefineTimeFormat struct {
 	CN_hms          string
 }
 
-var TimeFormat DefineTimeFormat
+var Format DefineTimeFormat
 var Loc *time.Location
 
 func init() {
@@ -46,8 +47,9 @@ func init() {
 	MonthMap["November"] = "11"
 	MonthMap["December"] = "12"
 
-	TimeFormat = DefineTimeFormat{
+	Format = DefineTimeFormat{
 		Normal_YMDhms:   "2006-01-02 15:04:05",
+		Normal_YMDhm:    "2006-01-02 15:04",
 		Normal_YMD:      "2006-01-02",
 		Normal_hms:      "15:04:05",
 		Slash_YMDhms:    "2006/01/02 15:04:05",
