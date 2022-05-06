@@ -60,3 +60,43 @@ func HoursAgo(hours time.Duration, format string) (lastTimeStr string) {
 	lastTimeStr = lastTime.Format(format)
 	return
 }
+
+//MinutesAgo 若干分钟之前的时间
+func MinutesAgo(minute time.Duration, format string) (lastTimeStr string) {
+	lastStamp := time.Now().Unix() - int64((time.Minute * minute).Seconds())
+	lastTime := time.Unix(lastStamp, 0).In(Loc)
+	lastTimeStr = lastTime.Format(format)
+	return
+}
+
+//SecondsAgo 若干秒之前的时间
+func SecondsAgo(second time.Duration, format string) (lastTimeStr string) {
+	lastStamp := time.Now().Unix() - int64((time.Minute * second).Seconds())
+	lastTime := time.Unix(lastStamp, 0).In(Loc)
+	lastTimeStr = lastTime.Format(format)
+	return
+}
+
+//HoursAfter 若干小时之后的时间
+func HoursAfter(hours time.Duration, format string) (lastTimeStr string) {
+	lastStamp := time.Now().Unix() + int64((time.Hour * hours).Seconds())
+	lastTime := time.Unix(lastStamp, 0).In(Loc)
+	lastTimeStr = lastTime.Format(format)
+	return
+}
+
+//MinutesAfter 若干分钟之后的时间
+func MinutesAfter(minute time.Duration, format string) (lastTimeStr string) {
+	lastStamp := time.Now().Unix() + int64((time.Minute * minute).Seconds())
+	lastTime := time.Unix(lastStamp, 0).In(Loc)
+	lastTimeStr = lastTime.Format(format)
+	return
+}
+
+//SecondsAfter 若干秒之后的时间
+func SecondsAfter(second time.Duration, format string) (lastTimeStr string) {
+	lastStamp := time.Now().Unix() + int64((time.Minute * second).Seconds())
+	lastTime := time.Unix(lastStamp, 0).In(Loc)
+	lastTimeStr = lastTime.Format(format)
+	return
+}
