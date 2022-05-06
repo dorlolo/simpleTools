@@ -14,7 +14,7 @@ import (
 )
 
 //检查文件是否存在
-func CheckFileIsExist(filePath string) bool {
+func FileExist(filePath string) bool {
 	var exist = true
 	if _, err := os.Stat(filePath); os.IsNotExist(err) {
 		exist = false

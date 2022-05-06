@@ -42,6 +42,7 @@ func InitDB() {
 	TableList = append(TableList, TestTable{})
 	DB = InitGormMysql(dbConfig)
 	if DB != nil {
+		//自动迁移表结构
 		AutoMigrate(DB, TableList)
 	}
 }

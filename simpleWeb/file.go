@@ -9,7 +9,7 @@ package simpleWeb
 
 import (
 	"errors"
-	"go-simple/simpleCrypto"
+	"github.com/dorlolo/simpleTools/simpleCrypto"
 	"io"
 	"mime/multipart"
 	"os"

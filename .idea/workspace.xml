@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="847ca993-dffc-4963-8e38-d5bc69f3eca9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleDB/excample_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleDB/excample_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleData/dataHandler_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleData/dataHandler_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleIo/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleIo/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleWeb/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleWeb/file.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +47,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../digital-collection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\81109\Documents\allWork\myp\smipleTools" />
       <recent name="$PROJECT_DIR$/simpleCrypto" />
       <recent name="$PROJECT_DIR$/sys" />
       <recent name="$PROJECT_DIR$/idCard" />
@@ -99,5 +110,10 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
   </component>
 </project>

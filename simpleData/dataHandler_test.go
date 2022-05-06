@@ -6,7 +6,7 @@ import (
 )
 
 func TestStructToHttpParamsWithJson(t *testing.T) {
-	new := struct {
+	newstr := struct {
 		name string `json:"name"`
 		age  int    `json:"age"`
 	}{
@@ -14,7 +14,7 @@ func TestStructToHttpParamsWithJson(t *testing.T) {
 		16,
 	}
 
-	res := StructToHttpParamsWithJson(new)
+	res := StructToHttpParamsWithJson(newstr)
 	fmt.Println(res)
 }
 
