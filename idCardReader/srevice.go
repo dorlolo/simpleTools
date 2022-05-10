@@ -4,7 +4,7 @@
  * @CreateTime:	2021/12/22
  * @Description: 将省市区数据加载map中以供快速查询
  */
-package idCard
+package idCardReader
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ var (
 )
 
 func Init_areaInfoToMap() {
-	AreaDb, err := gorm.Open(sqlite.Open(DBPATH), &gorm.Config{})
+	AreaDb, err := gorm.Open(sqlite.Open("./utils/idCardReader/area.sqlite"), &gorm.Config{})
 	if err != nil {
 		fmt.Println("连接area数据库失败")
 	}
@@ -42,6 +42,7 @@ func Init_areaInfoToMap() {
 		Res_Provice[province.ID] = province
 	}
 	IsInit = true
+
 }
 
 /**
@@ -50,7 +51,7 @@ func Init_areaInfoToMap() {
  * @Params     :
  * @Return     : province string,city string,county string
  */
-func (i *IdCardService) GetAreaFromMap(id string) (province, city, county string) {
+func (i *IdCardService) GetAreaFromMap(id string) (province string, city string, county string) {
 	if IsInit == false {
 		fmt.Println("初始化数据表")
 		Init_areaInfoToMap()

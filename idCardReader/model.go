@@ -4,7 +4,7 @@
  * @CreateTime:	2021/12/14 上午11:23
  * @Description: 此数据结构用于配合utils/icCard进行省市区的识别
  */
-package idCard
+package idCardReader
 
 //区县表
 type ResCounty struct {

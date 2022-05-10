@@ -5,10 +5,10 @@
  * @Description:
  */
 
-package idCard
+package idCardReader
 
 var (
-	DBPATH string = "/media/xjj/common/notebook/go/myExcampe/idCard/area.sqlite"
+	DBPATH string = "/media/xjj/common/notebook/go/myExcampe/idCardReader/area.sqlite"
 	CHECK         = []int{7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2}
 )
 

@@ -5,10 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="847ca993-dffc-4963-8e38-d5bc69f3eca9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/idCardReader/addresGet/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/MiTangAPI.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/MiTangAPI_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/baiduApi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/idcardInterface.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/yunyitongApi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realnameVierfy/yunyitongApi_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleTime/format.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleTime/format.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleTime/getTime.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleTime/getTime.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleTime/timeTranslate_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/simpleTime/timeTranslate_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/test/piyin.py" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/test/piyin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/utils/area.db" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/utils/area.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/utils/china_area.sql" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/utils/china_area.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/utils/crawlArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/utils/crawlArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/utils/sqlite.py" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/utils/sqlite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/addresGet/utils/sys_dict_area.sql" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/addresGet/utils/sys_dict_area.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/area.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/area.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/baseService.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/idCardInfoIdentify.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/map.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/model.go" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/model.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/res_area.go" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/res_area.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/srevice.go" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/srevice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idCard/test/idcard_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/idCardReader/test/idcard_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/CHANGELOG.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/test/simpleRequest_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/v2/body.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/v2/headers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/v2/param.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleRequest/v2/simpleRequest.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
